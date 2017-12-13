@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Garage from './Garage';
 
 function Square(props) {
   return (
@@ -74,6 +75,7 @@ class Game extends React.Component {
           <div>{/* status */}</div>
           <ol>{/* TODO */}</ol>
         </div>
+        <Garage />
       </div>
     );
   }
